@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daman Game Login</title>
+    <meta name="description"
+    content="How to download the Daman game app? 1. Click on the Daman games download button. 3. Install the game. 4. Create an account on Daman game 5. Daman game login" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 130;
+            margin: 0;
+            padding: 0;
+            color: #4a148c;
+        }
+      
+    </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <img src="1.png" width="94" height="74" alt="Logo" />
+
+      <div class="nav-container" id="navContainer">
+        <button class="close-btn" id="closeBtn">×</button>
+
+        <nav class="nav">
+          <a href="index.html" class="nav-item">Home</a>
+          <a href="about.html" class="nav-item">About</a>
+        
+          <a href="contact.html" class="nav-item">Contact</a>
+        </nav>
+
+        <div class="auth-buttons">
+          <a href="https://damangames.bet/#/login" class="btn btn-login">Log In</a>
+          <a href="https://damangames.bet/#/register?invitationCode=222479906566"
+              class="btn btn-register">Register</a>
+      </div>
+      </div>
+
+      <button class="toggle-btn" id="toggleBtn">☰</button>
+    </div>
+</header>
+    <div class="container">
+        <div class="policy-box">
+            <h1>Terms and Conditions</h1>
+            <p><strong>Welcome to Daman Games!</strong></p>
+            <p>At Daman Games, our goal is to give you an exciting and safe gaming experience. Before you start playing, it’s important to know the rules and guidelines for using our website, <a href="https://damangameapp.co" target="_blank">https://damangameapp.co</a>.</p>
+            <p>By using our website, you agree that you’ve read, understood, and accepted these terms and conditions. If you don’t agree with any part of these terms, please don’t use our platform.</p>
+
+            <h2>User Agreement</h2>
+            <p>When you visit our website, terms like “Client,” “You,” and “Your” refer to you, the user, while “The Company,” “We,” “Our,” and “Us” refer to Daman Games. These terms highlight the agreement between you and us about using our services. Remember, by using our platform, you agree to follow all applicable laws and rules.</p>
+
+            <h2>Cookies Policy</h2>
+            <p>We use cookies to make your experience better on Daman Games. By using our website, you agree to our use of cookies as mentioned in our Privacy Policy. Cookies help us personalize your experience and improve our services.</p>
+
+            <h2>Intellectual Property Rights</h2>
+            <p>All content on Daman Games is owned by Daman Games or its licensors unless stated otherwise. You can use this content for personal use, as long as you follow the restrictions mentioned in our terms and conditions.</p>
+
+            <h2>Commenting Policy</h2>
+            <p>We encourage you to engage with us, but we reserve the right to monitor and remove any comments that are inappropriate or against our terms and conditions. When you post comments on our website, you give us permission to use and reproduce them.</p>
+
+            <h2>Hyperlinking Policy</h2>
+            <p>Some organizations may link to our website, but they must follow the linking guidelines mentioned in our terms and conditions. We may ask for the removal of any links that don’t comply with our policies.</p>
+
+            <h2>Content Liability</h2>
+            <p>We are not responsible for the content on third-party websites linked to our platform. However, we reserve the right to take action against any offensive or inappropriate links.</p>
+
+            <h2>Disclaimer</h2>
+            <p>We aim to provide accurate and current information on our website, but we can’t guarantee its completeness or accuracy. Additionally, we are not liable for any loss or damage while using our website, except where prohibited by law.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have any questions or concerns about our terms and conditions, please contact us.</p>
+        </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="1.png" alt="Logo" />
+        </div>
+  
+        <!-- Navigation Links -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Disclaimer.html">Disclaimer</a>
+            <a href="contact.html">Contact Us</a>
+            
+          </div>
+          <div class="footer-column">
+            <a href="become-an-agent.html">Become an agent</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Termsconditions.html">Terms and Conditions</a>
+            
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        &copy; 2025 Daman Games. All rights reserved.
+        <div class="footer-address">
+          Daman Games HQ, 123 Rainbow Road, Mumbai, India - 400001
+        </div>
+      </div>
+    </footer>
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const navContainer = document.getElementById('navContainer');
+        const closeBtn = document.getElementById('closeBtn');
+    
+        toggleBtn.addEventListener('click', () => {
+          navContainer.classList.toggle('active');
+          toggleBtn.textContent = navContainer.classList.contains('active') ? '✕' : '☰';
+        });
+    
+        closeBtn.addEventListener('click', () => {
+          navContainer.classList.remove('active');
+          toggleBtn.textContent = '☰';
+        });
+      </script>
+</body>
+</html>

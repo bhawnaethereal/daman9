@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daman Game Login</title>
+    <meta name="description"
+    content="How to download the Daman game app? 1. Click on the Daman games download button. 3. Install the game. 4. Create an account on Daman game 5. Daman game login" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+     
+      
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+          <img src="1.png" width="94" height="74" alt="Logo" />
+    
+          <div class="nav-container" id="navContainer">
+            <button class="close-btn" id="closeBtn">×</button>
+    
+            <nav class="nav">
+              <a href="index.html" class="nav-item">Home</a>
+              <a href="about.html" class="nav-item">About</a>
+            
+              <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+    
+            <div class="auth-buttons">
+              <a href="https://damangames.bet/#/login" class="btn btn-login">Log In</a>
+              <a href="https://damangames.bet/#/register?invitationCode=222479906566"
+                  class="btn btn-register">Register</a>
+          </div>
+          </div>
+    
+          <button class="toggle-btn" id="toggleBtn">☰</button>
+        </div>
+    </header>
+      
+    <div class="container">
+        <div class="about-box">
+            <h1>About Us</h1>
+            <p>Welcome to the <span class="highlight">Daman Games App</span>! We’re excited to have you here. At Daman Games, we believe in combining entertainment with trustworthiness, and we’re happy to share our journey with you.</p>
+            <p>In today’s world, where everything is going online, we at Daman Games want to help you navigate this digital space with ease. We’re here to provide you with the right solutions whenever you need them. If you have any questions or suggestions, feel free to drop us a comment—your feedback helps us serve you better.</p>
+            <p>We’re dedicated to bringing you fresh and up-to-date content that keeps you informed about the latest trends, whether it’s <span class="highlight">gaming</span>, <span class="highlight">casinos</span>, or <span class="highlight">colour prediction games</span>. Our goal is simple: to provide 100% original and safe content in a world full of misinformation. We’re always working to improve, making sure your experience on our platform is top-notch.</p>
+            <p>Daman Games covers a wide range of categories, including Daman Games, Casino Games, and Color Prediction Games. We’re constantly adding new content, so there’s always something new and exciting for you to explore.</p>
+            <p>If you’re interested in Daman Games, Casino Games, or Color Prediction Games, you’ve come to the right place. Our platform is designed to be your go-to source for all related information, whether you’re an experienced player or just starting.</p>
+            <p>We also offer a notification service to keep you updated on the latest news. You can join us via email or on your favourite social media platforms to stay in the loop.</p>
+            <p><span class="highlight">Daman Games</span> isn’t just a website; it’s our commitment to making your online experience smooth and enjoyable. We’re here to be your trusted source for accurate and reliable information.</p>
+            <p>Thank you for visiting our About Us page. We hope you find everything you’re looking for at Daman Games. If you have any questions or need more information, don’t hesitate to <span class="highlight">Contact Us</span>. Your journey with us is just beginning.</p>
+            <div class="footer-message">
+                “Thanks for visiting our About Us page.“
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="1.png" alt="Logo" />
+        </div>
+  
+        <!-- Navigation Links -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Disclaimer.html">Disclaimer</a>
+            <a href="contact.html">Contact Us</a>
+            
+          </div>
+          <div class="footer-column">
+            <a href="become-an-agent.html">Become an agent</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Termsconditions.html">Terms and Conditions</a>
+            
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        &copy; 2025 Daman Games. All rights reserved.
+        <div class="footer-address">
+          Daman Games HQ, 123 Rainbow Road, Mumbai, India - 400001
+        </div>
+      </div>
+    </footer>
+
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const navContainer = document.getElementById('navContainer');
+        const closeBtn = document.getElementById('closeBtn');
+    
+        toggleBtn.addEventListener('click', () => {
+          navContainer.classList.toggle('active');
+          toggleBtn.textContent = navContainer.classList.contains('active') ? '✕' : '☰';
+        });
+    
+        closeBtn.addEventListener('click', () => {
+          navContainer.classList.remove('active');
+          toggleBtn.textContent = '☰';
+        });
+      </script>
+</body>
+</html>

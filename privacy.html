@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daman Game Login</title>
+    <meta name="description"
+    content="How to download the Daman game app? 1. Click on the Daman games download button. 3. Install the game. 4. Create an account on Daman game 5. Daman game login" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 130;
+            margin: 0;
+            padding: 0;
+            color: #4a148c;
+        }
+    
+    </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <img src="1.png" width="94" height="74" alt="Logo" />
+
+      <div class="nav-container" id="navContainer">
+        <button class="close-btn" id="closeBtn">×</button>
+
+        <nav class="nav">
+          <a href="index.html" class="nav-item">Home</a>
+          <a href="about.html" class="nav-item">About</a>
+        
+          <a href="contact.html" class="nav-item">Contact</a>
+        </nav>
+
+        <div class="auth-buttons">
+          <a href="https://damangames.bet/#/login" class="btn btn-login">Log In</a>
+          <a href="https://damangames.bet/#/register?invitationCode=222479906566"
+              class="btn btn-register">Register</a>
+      </div>
+      </div>
+
+      <button class="toggle-btn" id="toggleBtn">☰</button>
+    </div>
+</header>
+    <div class="container">
+        <div class="policy-box">
+            <h1>Privacy Policy</h1>
+            <p><strong>Who we are</strong></p>
+            <p>Our website address is <a href="https://damangameapp.co">https://damangameapp.co</a>.</p>
+
+            <h2>Comments</h2>
+            <p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.</p>
+            <p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service. Their privacy policy is available <a href="https://automattic.com/privacy/" target="_blank">here</a>.</p>
+
+            <h2>Media</h2>
+            <p>If you upload images to the website, avoid uploading images with embedded location data (EXIF GPS). Visitors to the website can download and extract any location data from images.</p>
+
+            <h2>Cookies</h2>
+            <p>If you leave a comment, you may opt-in to saving your name, email and website in cookies. These last for one year.</p>
+            <p>We also set cookies when you log in or visit our login page. Login cookies last for two days, display settings for one year, and remember-me cookies for two weeks.</p>
+            <p>Editing or publishing an article saves another cookie which expires in 1 day.</p>
+
+            <h2>Embedded content from other websites</h2>
+            <p>Articles may include embedded content (videos, images, etc.) that behave like the visitor visited the original site. These sites may collect data, use cookies, and track interactions.</p>
+
+            <h2>Who we share your data with</h2>
+            <p>If you request a password reset, your IP address will be included in the reset email.</p>
+
+            <h2>How long we retain your data</h2>
+            <p>If you leave a comment, it and its metadata are retained indefinitely. Registered users can edit or delete their information at any time (except their username).</p>
+
+            <h2>What rights you have over your data</h2>
+            <p>You can request an exported file of your personal data, or request we erase any data we hold, excluding data we must keep for legal or security purposes.</p>
+
+            <h2>Where your data is sent</h2>
+            <p>Visitor comments may be checked through an automated spam detection service.</p>
+        </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="1.png" alt="Logo" />
+        </div>
+  
+        <!-- Navigation Links -->
+        <div class="footer-links">
+          <div class="footer-column">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="Disclaimer.html">Disclaimer</a>
+            <a href="contact.html">Contact Us</a>
+            
+          </div>
+          <div class="footer-column">
+            <a href="become-an-agent.html">Become an agent</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="Termsconditions.html">Terms and Conditions</a>
+            
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bottom Section -->
+      <div class="footer-bottom">
+        &copy; 2025 Daman Games. All rights reserved.
+        <div class="footer-address">
+          Daman Games HQ, 123 Rainbow Road, Mumbai, India - 400001
+        </div>
+      </div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const navContainer = document.getElementById('navContainer');
+        const closeBtn = document.getElementById('closeBtn');
+    
+        toggleBtn.addEventListener('click', () => {
+          navContainer.classList.toggle('active');
+          toggleBtn.textContent = navContainer.classList.contains('active') ? '✕' : '☰';
+        });
+    
+        closeBtn.addEventListener('click', () => {
+          navContainer.classList.remove('active');
+          toggleBtn.textContent = '☰';
+        });
+      </script>
+</body>
+</html>

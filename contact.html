@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daman Game Login</title>
+    <meta name="description"
+    content="How to download the Daman game app? 1. Click on the Daman games download button. 3. Install the game. 4. Create an account on Daman game 5. Daman game login" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 130;
+            margin: 0;
+            padding: 0;
+            color: #4a148c;
+        }
+
+       
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+          <img src="1.png" width="94" height="74" alt="Logo" />
+    
+          <div class="nav-container" id="navContainer">
+            <button class="close-btn" id="closeBtn">×</button>
+    
+            <nav class="nav">
+              <a href="index.html" class="nav-item">Home</a>
+              <a href="about.html" class="nav-item">About</a>
+            
+              <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
+    
+            <div class="auth-buttons">
+              <a href="https://damangames.bet/#/login" class="btn btn-login">Log In</a>
+              <a href="https://damangames.bet/#/register?invitationCode=222479906566"
+                  class="btn btn-register">Register</a>
+          </div>
+          </div>
+    
+          <button class="toggle-btn" id="toggleBtn">☰</button>
+        </div>
+    </header>
+
+
+
+    <div class="container">
+        <div class="about-box">
+            <h1>Contact Us</h1>
+
+            <p style="font-size: 20px;">If you have any questions or need any clarification, we are always here to help. Feel free to reach out
+                to us anytime by email at
+                <br> <span><a href="">info@damangameapp.co</a></span>
+            </p>
+
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+          <!-- Logo -->
+          <div class="footer-logo">
+            <img src="1.png" alt="Logo" />
+          </div>
+    
+          <!-- Navigation Links -->
+          <div class="footer-links">
+            <div class="footer-column">
+              <a href="index.html">Home</a>
+              <a href="about.html">About Us</a>
+              <a href="Disclaimer.html">Disclaimer</a>
+              <a href="contact.html">Contact Us</a>
+              
+            </div>
+            <div class="footer-column">
+              <a href="become-an-agent.html">Become an agent</a>
+              <a href="privacy.html">Privacy Policy</a>
+              <a href="Termsconditions.html">Terms and Conditions</a>
+              
+            </div>
+          </div>
+        </div>
+    
+        <!-- Bottom Section -->
+        <div class="footer-bottom">
+          &copy; 2025 Daman Games. All rights reserved.
+          <div class="footer-address">
+            Daman Games HQ, 123 Rainbow Road, Mumbai, India - 400001
+          </div>
+        </div>
+      </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const navContainer = document.getElementById('navContainer');
+        const closeBtn = document.getElementById('closeBtn');
+
+        toggleBtn.addEventListener('click', () => {
+            navContainer.classList.toggle('active');
+            toggleBtn.textContent = navContainer.classList.contains('active') ? '✕' : '☰';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            navContainer.classList.remove('active');
+            toggleBtn.textContent = '☰';
+        });
+    </script>
+</body>
+
+</html>
