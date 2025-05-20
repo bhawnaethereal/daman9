@@ -94,6 +94,7 @@ h1,h2,h3{
 
 .dropdown-item:hover {
   background-color: #eee;
+  color: black;
 }
 
 /* Show the dropdown on hover */
