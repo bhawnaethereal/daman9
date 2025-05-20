@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /dashboard/
+Disallow: /user/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /includes/
+Disallow: /cgi-bin/
+
+Allow: /
+
+Sitemap: https://damangameapp.co/sitemap.xml
