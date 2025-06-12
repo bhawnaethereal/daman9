@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsible Gaming - Daman Games</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 130;
+            margin: 0;
+            padding: 0;
+            color: #4a148c;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .policy-box {
+            background-color: #ffffff;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(74, 20, 140, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .policy-box:hover {
+            transform: translateY(-5px);
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #6a1b9a;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        ul {
+            margin-left: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="1.png" width="94" height="74" alt="Logo" />
+
+            <div class="nav-container" id="navContainer">
+                <button class="close-btn" id="closeBtn">×</button>
+
+                <nav class="nav">
+                    <a href="index.html" class="nav-item">Home</a>
+                    <a href="about.html" class="nav-item">About</a>
+                    <a href="#" class="nav-item">Blog</a>
+                    <a href="responsible-gaming.html" class="nav-item">Responsible Gaming</a>
+                    <a href="#" class="nav-item">Contact</a>
+                </nav>
+
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-login">Log In</a>
+                    <a href="#" class="btn btn-register">Register</a>
+                </div>
+            </div>
+
+            <button class="toggle-btn" id="toggleBtn">☰</button>
+        </div>
+    </header>
+    <div class="container">
+        <div class="policy-box">
+            <h1>Responsible Gaming</h1>
+            <p>Hello friend, This message is not to stop you. It is just to say – play smart.</p>
+            <p>Daman game is a game, yes, but it is also real money. So please use it with care.</p>
+            <p>We want you to enjoy, not regret.</p>
+
+            <h2>Game Is for Timepass, Not for Stress</h2>
+            <p>Game should make you smile, not make you worry. If you are feeling low, tired or angry, do not open the
+                app. Go outside, talk to someone, take rest.
+            </p>
+            <p>Do not think this game will solve money problems. Some win, some lose. That is normal.
+            </p>
+
+            <p>If you win – good. If you lose – stop. Try later or leave it.
+            </p>
+
+            <h2>Are You Playing Too Much? Just Think Once</h2>
+            <p>Ask yourself:</p>
+
+            <ul>
+                <li>Are you playing late at night every day?</li>
+                <li>Are you missing study or work?</li>
+                <li>Are you hiding it from family?</li>
+                <li>Are you using money meant for other things?</li>
+                <li>Are you getting angry when you lose?</li>
+            </ul>
+
+            <p>If even 2 answers are yes, stop and take a break.</p>
+
+            <h2>Play With Limit – Simple Rules to Follow</h2>
+
+            <ul>
+                <li>Fix a time daily. Do not go beyond it.
+                </li>
+                <li>Keep money aside just for play. Small amount.</li>
+                <li>Never take loan or borrow to play.</li>
+                <li>Sleep properly. Eat properly.</li>
+                <li>Keep balance in life. Game is not everything.</li>
+            </ul>
+
+            <p>No one will stop you. But you must stop yourself when needed.
+            </p>
+
+
+            <h2>Daman game Can Help You Too</h2>
+            <p>If you ever feel like you are not able to control, message us.
+                We will:</p>
+
+            <ul>
+                <li>Pause your account if you want</li>
+                <li>Put a daily limit</li>
+                <li>Suggest a cool-off time</li>
+                <li>Answer your questions honestly</li>
+
+            </ul>
+            <p>We are not here only for gaming. We are here to protect users too.
+            </p>
+
+            <h2>Parents, Family, Friends – Please Watch Too</h2>
+            <p>If you think someone close to you is playing too much, please talk. No need to fight. Just sit with them.
+                Ask them how they feel. Sometimes just talking makes a big difference.</p>
+
+            <h2>Your Mind Is More Important Than Any Game</h2>
+            <p>We are saying again – do not chase loss. Do not play with fear. Play only when heart is light.</p>
+            <p>You are more important than the app. This game will stay. Your health must stay first.</p>
+
+            <h2>Need Help? We Are Just a Message Away</h2>
+            <p>If you ever feel confused, stuck, or just need a break:</p>
+            <p>Email us at:
+                <a href=" info@damangameapp.co"> info@damangameapp.co</a>
+            </p>
+            <p> We will reply with full respect.</p>
+
+            <h2>Final Line – From Our Side to Yours</h2>
+            <p>Thank you for reading this. Please enjoy Daman game. But enjoy with care. Play like a game. Live like a winner. Stay safe. Stay happy.</p>
+            <p>Warm regards,
+            </p>
+            <p>Team Daman game
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const navContainer = document.getElementById('navContainer');
+        const closeBtn = document.getElementById('closeBtn');
+
+        toggleBtn.addEventListener('click', () => {
+            navContainer.classList.toggle('active');
+            toggleBtn.textContent = navContainer.classList.contains('active') ? '✕' : '☰';
+        });
+
+        closeBtn.addEventListener('click', () => {
+            navContainer.classList.remove('active');
+            toggleBtn.textContent = '☰';
+        });
+    </script>
+</body>
+
+</html>
